@@ -24,8 +24,8 @@ public class US3StepsDef {
 
     @Before
     public void setUp() {
-       /*System.setProperty("phantomjs.binary.path",
-                "drivers\\phantomjs.exe");*/
+        System.setProperty("phantomjs.binary.path",
+                "drivers/phantomjs");
         driver = new PhantomJSDriver();
     }
 
